@@ -1,5 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
+## we set a matrix here and then get the matrix. Then, we set the inverse of the matrix and get the inverse of the matrix.
 
 ## Write a short comment describing this function
 
@@ -20,6 +21,8 @@ makeCacheMatrix < -function( x = matrix()) {
 
 
 ## Write a short comment describing this function
+## it is used to set the inverse of the matrix we have got. 
+## first, check if the inverse is already got. If not, then get the inverse of the matrix.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
